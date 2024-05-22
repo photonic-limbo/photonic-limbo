@@ -1,0 +1,22 @@
+[package]
+name = "example"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+# embassy-executor = { workspace = true }
+# embassy-time = { workspace = true }
+# env_logger = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+tokio-retry = { workspace = true }
+tokio-graceful = { workspace = true }
+tokio-util = { workspace = true }
+zenoh = { workspace = true }
+async-trait = { workspace = true }
+
+embedded-hal = { workspace = true }
+rppal = { workspace = true }
+linux-embedded-hal = { workspace = true }
+
